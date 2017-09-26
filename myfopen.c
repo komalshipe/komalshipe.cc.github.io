@@ -28,3 +28,11 @@ FILE *fopen(char *name,char *mode)
   fp->flag = (*mode == 'r') ? _READ :_WRITE;
   return fp;
 }
+int main(void)
+{
+  MyFILE *fp;
+  char mode;
+  mode ='w'
+  fp = fopen('helloWorld.txt',&mode)
+  return 0;
+}
